@@ -1,0 +1,2 @@
+ip -f inet -o addr show wlp1s0|cut -d\  -f 7 | cut -d/ -f 1
+
